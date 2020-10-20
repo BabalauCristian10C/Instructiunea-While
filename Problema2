@@ -1,0 +1,23 @@
+i = 0
+p = 0
+n = 0
+sumpos = 0
+sumneg = 0
+
+while i < 12:
+    temp = eval(input('Introduceti temperatura intr-o luna '))
+    if temp >= 0:
+        sumpos += temp
+        p+=1
+    if temp <= 0:
+        sumneg += temp
+        n+=1
+    i = i + 1
+
+if p > 0:
+    media_pos = float(sumpos / p)
+    print(f'Media pozitiva este {round(media_pos, 2)}')
+
+if n > 0:
+    media_neg = float(sumneg / n)
+    print(f'Media neg este {round(media_neg, 2)}')
