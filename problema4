@@ -1,0 +1,12 @@
+n = int(input("Introduceti un numar "))
+i = 0
+summ = 0
+arit = 0
+produs = 0
+if n > 0:
+    while i != n:  
+        i +=1    
+        summ += i 
+        arit = summ / i
+        
+print(summ, arit)
