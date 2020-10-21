@@ -1,0 +1,11 @@
+nr_intr = 0
+summ=0
+a = True
+while a == True:
+    nr_intr = int(input("Introduceti numere naturale "))
+    if nr_intr % 2 == 0:
+        summ += nr_intr
+    if nr_intr %3 == 0 and nr_intr %2 == 1:
+        a = False
+
+print(f'Summa numerelor introduese = {summ}')
