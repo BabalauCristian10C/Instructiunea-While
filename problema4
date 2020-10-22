@@ -3,10 +3,14 @@ i = 0
 summ = 0
 arit = 0
 produs = 0
+summp = 0
 if n > 0:
-    while i != n:  
-        i +=1    
-        summ += i 
+    while i != n:
+        i += 1
+        summ += i
         arit = summ / i
-        
-print(summ, arit)
+        produs = i * i
+        summp += produs
+
+
+print(summ, arit, summp)
