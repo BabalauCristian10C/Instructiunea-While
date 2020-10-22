@@ -1,0 +1,9 @@
+n = 0
+a = True
+summ = 0
+while a == True:
+    n = eval(input("Introduceti un numar nenul "))
+    summ += n
+    if n == 0:
+        a = False
+print(summ)
